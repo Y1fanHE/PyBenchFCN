@@ -1,8 +1,19 @@
 import numpy as np
-from Factory import set_problem
 
-n_var = 10
+# import single objective problems from PyBenchFCN
+from PyBenchFCN import SingleObjectiveProblem as SOP
 
-for i in range(1, 62):
-    prob = set_problem(f"f{i}", n_var)
-    print(prob.optimalF, file=open("optim.txt", "a"))
+n_var = 10                                      # dimension of problem
+n_pop = 3                                       # size of population
+
+problem = SOP.ackleyfcn(n_var)                  # Ackley problem
+
+print(problem.optimalF)                         # show optimal value
+
+xl, xu = problem.boundaries                     # bound of problem
+
+x = np.random.uniform(xl, xu, n_var)            # initialize a solution
+print( problem.f(x) )                           # show fitness value
+
+X = np.random.uniform( xl, xu, (n_pop, n_var) ) # initialize a population
+print( problem.F(X) )                           # show fitness values
