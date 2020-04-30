@@ -141,7 +141,7 @@ Totally, 61 functions are implemented. The plot of 2D versions of 59 problems ar
 
 ```2-dim``` ```differentiable``` ```non-convex``` ```multimodal``` ```non-separable```
 
-- Gramacy & Lee Function
+- Gramacy & Lee Function [>>](./FitnessLandScape.md#gramacy--lee-function)
 
 ```1-dim``` ```differentiable``` ```non-convex``` ```multimodal``` ```separable```
 
@@ -257,7 +257,7 @@ Totally, 61 functions are implemented. The plot of 2D versions of 59 problems ar
 
 ```n-dim``` ```differentiable``` ```convex``` ```unimodal``` ```separable```
 
-- Styblinskitank Function [>>](./FitnessLandScape.md#styblinskitank-function)
+- Styblinski-Tang Function [>>](./FitnessLandScape.md#styblinski-tang-function)
 
 ```n-dim``` ```differentiable``` ```non-convex``` ```multimodal``` ```separable```
 
@@ -269,7 +269,7 @@ Totally, 61 functions are implemented. The plot of 2D versions of 59 problems ar
 
 ```2-dim``` ```differentiable``` ```non-convex``` ```multimodal``` ```non-separable```
 
-- Wolfe Function
+- Wolfe Function [>>](./FitnessLandScape.md#wolfe-function)
 
 ```3-dim``` ```non-differentiable``` ```non-convex``` ```multimodal``` ```separable```
 
