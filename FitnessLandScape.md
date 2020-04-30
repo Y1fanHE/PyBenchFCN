@@ -1,5 +1,3 @@
-<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" id="MathJax-script"></script>
-
 <h1><p align="center"># Fitness Landscape of Functions #</p></h1>
 
 ## Ackley Function
