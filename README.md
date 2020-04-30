@@ -26,7 +26,7 @@ problem = SOP.ackleyfcn(n_var)                  # Ackley problem
 
 '''same function as the code above
 from PyBenchFCN import Factory
-problem = Factory.set_sop("f1")
+problem = Factory.set_sop("f1", n_var)
 '''
 
 print( np.round(problem.optimalF, 5) )          # show rounded optimal value
