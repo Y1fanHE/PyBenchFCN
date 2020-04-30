@@ -12,7 +12,7 @@
 This library is a python implementation for the MatLab package [BenchmarkFcns Toolbox](http://benchmarkfcns.xyz/).
 
 You can simply install with command ```pip install PyBenchFCN```.
-- Pre-request: ```numpy```
+- Pre-request: ```numpy```, ```matplotlib```
 
 ## How to Use
 
