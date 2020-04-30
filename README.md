@@ -18,7 +18,7 @@ You can simply install with command ```pip install PyBenchFCN```.
 
 To use the package, one may see the sample code in ```Factory.py``` in the [repository](https://github.com/Y1fanHE/PyBenchFCN), or follow the script below.
 
-```
+```python3
 import numpy as np
 
 # import single objective problems from PyBenchFCN
