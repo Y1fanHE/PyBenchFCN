@@ -96,7 +96,7 @@ Totally, 61 functions are implemented. The plot of 2D versions of 59 problems ar
 - Schwefel 2.23 Function [>>](./FitnessLandScape.md#schwefel-223-function)
 - Schwefel Function [>>](./FitnessLandScape.md#schwefel-function)
 - Sphere Function [>>](./FitnessLandScape.md#sphere-function)
-- StyblinskitankFunction [>>](./FitnessLandScape.md#styblinskitank-function)
+- Styblinskitank Function [>>](./FitnessLandScape.md#styblinskitank-function)
 - Sum Squares Function [>>](./FitnessLandScape.md#sum-squares-function)
 - Three-Hump Camel Function [>>](./FitnessLandScape.md#three-hump-camel-function)
 - Wolfe Function
