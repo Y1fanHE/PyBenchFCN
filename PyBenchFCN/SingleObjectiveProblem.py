@@ -24,6 +24,7 @@ end
 class ackleyfcn():
     def __init__(self, n_var=10):
         self.boundaries = np.array([-32, 32])
+        self.plot_bound = np.array([-40, 40])
         self.n_var = n_var
         self.optimalX = np.zeros(self.n_var)
         self.optimalF = self.f(self.optimalX)
@@ -63,6 +64,7 @@ end
 class ackleyn2fcn():
     def __init__(self, n_var=2):
         self.boundaries = np.array([-32, 32])
+        self.plot_bound = np.array([-4, 4])
         self.n_var = 2
         if n_var != self.n_var: print('Ackley N. 2 function is only defined on a 2D space.')
         self.optimalX = np.zeros(self.n_var)
@@ -102,6 +104,7 @@ end
 class ackleyn3fcn():
     def __init__(self, n_var=2):
         self.boundaries = np.array([-32, 32])
+        self.plot_bound = np.array([-4, 4])
         self.n_var = 2
         if n_var != self.n_var: print('Ackley N. 3 function is only defined on a 2D space.')
         self.optimalX = np.array([0.682584587365898, -0.36075325513719])
@@ -141,6 +144,7 @@ end
 class adjimanfcn():
     def __init__(self, n_var=2):
         self.boundaries = np.array([[-1,-1], [2,1]])
+        self.plot_bound = self.boundaries
         self.n_var = 2
         if n_var != self.n_var: print('Adjiman function is only defined on a 2D space.')
         self.optimalX = np.array([5, 0])
@@ -176,6 +180,7 @@ end
 class alpinen1fcn():
     def __init__(self, n_var=10):
         self.boundaries = np.array([0, 10])
+        self.plot_bound = np.array([-10, 10])
         self.n_var = n_var
         self.optimalX = np.zeros(self.n_var)
         self.optimalF = self.f(self.optimalX)
@@ -207,6 +212,7 @@ end
 class alpinen2fcn():
     def __init__(self, n_var=10):
         self.boundaries = np.array([0, 10])
+        self.plot_bound = self.boundaries
         self.n_var = n_var
         self.optimalX = np.zeros(self.n_var) + 7.917
         self.optimalF = self.f(self.optimalX)
@@ -241,6 +247,7 @@ end
 class bartelsconnfcn():
     def __init__(self, n_var=2):
         self.boundaries = np.array([-500, 500])
+        self.plot_bound = np.array([-4, 4])
         self.n_var = 2
         if n_var != self.n_var: print('Bartels Conn function is only defined on a 2D space.')
         self.optimalX = np.zeros(self.n_var)
@@ -282,6 +289,7 @@ end
 class bealefcn():
     def __init__(self, n_var=2):
         self.boundaries = np.array([-4.5, 4.5])
+        self.plot_bound = np.array([-5, 5])
         self.n_var = 2
         if n_var != self.n_var: print('Beale\'s function is only defined on a 2D space.')
         self.optimalX = np.array([3, 0.5])
@@ -324,6 +332,7 @@ end
 class birdfcn():
     def __init__(self, n_var=2):
         self.boundaries = np.array([-2 * np.pi, 2 * np.pi])
+        self.plot_bound = np.array([-10, 10])
         self.n_var = 2
         if n_var != self.n_var: print('Bird function is only defined on a 2D space.')
         self.optimalX = np.array([4.70104, 3.15294])
@@ -363,6 +372,7 @@ end
 class bohachevskyn1fcn():
     def __init__(self, n_var=2):
         self.boundaries = np.array([-100, 100])
+        self.plot_bound = self.boundaries
         self.n_var = 2
         if n_var != self.n_var: print('The Bohachevsky N. 1 function is only defined on a 2D space.')
         self.optimalX = np.zeros(self.n_var)
@@ -400,6 +410,7 @@ end
 class bohachevskyn2fcn():
     def __init__(self, n_var=2):
         self.boundaries = np.array([-100, 100])
+        self.plot_bound = np.array([-1.5, 1.5])
         self.n_var = 2
         if n_var != self.n_var: print('The Bohachevsky N. 2 function is only defined on a 2D space.')
         self.optimalX = np.zeros(self.n_var)
@@ -440,6 +451,7 @@ end
 class boothfcn():
     def __init__(self, n_var=2):
         self.boundaries = np.array([-10, 10])
+        self.plot_bound = self.boundaries
         self.n_var = 2
         if n_var != self.n_var: print('Booth\'s function is only defined on a 2D space.')
         self.optimalX = np.array([1, 3])
@@ -479,6 +491,7 @@ end
 class brentfcn():
     def __init__(self, n_var=2):
         self.boundaries = np.array([-20, 0])
+        self.plot_bound = self.boundaries
         self.n_var = 2
         if n_var != self.n_var: print('The Brent function is defined only on the 2-D space.')
         self.optimalX = np.zeros(self.n_var) - 10
@@ -519,6 +532,7 @@ end
 class brownfcn():
     def __init__(self, n_var=10):
         self.boundaries = np.array([-1, 4])
+        self.plot_bound = np.array([-1, 1])
         self.n_var = n_var
         self.optimalX = np.zeros(self.n_var)
         self.optimalF = self.f(self.optimalX)
@@ -561,6 +575,7 @@ end
 class bukinn6fcn():
     def __init__(self, n_var=2):
         self.boundaries = np.array([[-15,-3], [-5,3]])
+        self.plot_bound = self.boundaries
         self.n_var = 2
         if n_var != self.n_var: print('The Bukin N. 6 functions is only defined on a 2D space.')
         self.optimalX = np.array([-10, 1])
@@ -604,6 +619,7 @@ end
 class crossintrayfcn():
     def __init__(self, n_var=2):
         self.boundaries = np.array([-10, 10])
+        self.plot_bound = self.boundaries
         self.n_var = 2
         if n_var != self.n_var: print('The Cross-in-tray function is only defined on a 2D space.')
         self.optimalX = np.array([1.349406685353340, 1.349406608602084])
@@ -645,6 +661,7 @@ end
 class deckkersaartsfcn():
     def __init__(self, n_var=2):
         self.boundaries = np.array([-20, 20])
+        self.plot_bound = self.boundaries
         self.n_var = 2
         if n_var != self.n_var: print('The Deckkers-Aarts function is defined only on the 2-D space.')
         self.optimalX = np.array([0, 15])
@@ -686,6 +703,7 @@ end
 class dropwavefcn():
     def __init__(self, n_var=2):
         self.boundaries = np.array([-5.2, 5.2])
+        self.plot_bound = np.array([-5, 5])
         self.n_var = 2
         if n_var != self.n_var: print('Drop-Wave function is only defined on a 2D space.')
         self.optimalX = np.zeros(self.n_var)
@@ -727,6 +745,7 @@ end
 class easomfcn():
     def __init__(self, n_var=2):
         self.boundaries = np.array([-100, 100])
+        self.plot_bound = np.array([-50, 50])
         self.n_var = 2
         if n_var != self.n_var: print('The Easom\'s function is only defined on a 2D space.')
         self.optimalX = np.zeros(self.n_var) + np.pi
@@ -766,6 +785,7 @@ end
 class eggcratefcn():
     def __init__(self, n_var=2):
         self.boundaries = np.array([-5, 5])
+        self.plot_bound = self.boundaries
         self.n_var = 2
         if n_var != self.n_var: print('The Egg Crate function is defined only on the 2-D space.')
         self.optimalX = np.zeros(self.n_var)
@@ -808,6 +828,7 @@ end
 class eggholderfcn():
     def __init__(self, n_var=2):
         self.boundaries = np.array([-512, 512])
+        self.plot_bound = np.array([-600, 600])
         self.n_var = 2
         if n_var != self.n_var: print('The Eggholder function is only defined on a 2D space.')
         self.optimalX = np.array([512, 404.2319])
@@ -845,6 +866,7 @@ end
 class exponentialfcn():
     def __init__(self, n_var=10):
         self.boundaries = np.array([-1, 1])
+        self.plot_bound = np.array([-2, 2])
         self.n_var = n_var
         self.optimalX = np.zeros(self.n_var)
         self.optimalF = self.f(self.optimalX)
@@ -883,6 +905,7 @@ end
 class goldsteinpricefcn():
     def __init__(self, n_var=2):
         self.boundaries = np.array([-2, 2])
+        self.plot_bound = self.boundaries
         self.n_var = 2
         if n_var != self.n_var: print('The Goldstein-Price function is only defined on a 2D space.')
         self.optimalX = np.array([0, -1])
@@ -921,6 +944,7 @@ end
 class gramacyleefcn():
     def __init__(self, n_var=1):
         self.boundaries = np.array([-0.5, 2.5])
+        self.plot_bound = self.boundaries
         self.n_var = 1
         if n_var != self.n_var: print('Gramacy & Lee function is only defined on a 1-D space.')
         self.optimalX = np.array([0.548563444114526])
@@ -961,6 +985,7 @@ end
 class griewankfcn():
     def __init__(self, n_var=10):
         self.boundaries = np.array([-600, 600])
+        self.plot_bound = np.array([-5, 5])
         self.n_var = n_var
         self.optimalX = np.zeros(self.n_var)
         self.optimalF = self.f(self.optimalX)
@@ -1009,6 +1034,7 @@ end
 class happycatfcn():
     def __init__(self, n_var=10, alpha=0.5):
         self.boundaries = np.array([-2, 2])
+        self.plot_bound = self.boundaries
         self.alpha = alpha
         self.n_var = n_var
         self.optimalX = np.zeros(self.n_var) - 1
@@ -1047,6 +1073,7 @@ end
 class himmelblaufcn():
     def __init__(self, n_var=2):
         self.boundaries = np.array([-6, 6])
+        self.plot_bound = np.array([-5, 5])
         self.n_var = 2
         if n_var != self.n_var: print('Himmelblau\'s function is only defined on a 2D space.')
         self.optimalX = np.array([3, 2])
@@ -1089,6 +1116,7 @@ end
 class holdertablefcn():
     def __init__(self, n_var=2):
         self.boundaries = np.array([-10, 10])
+        self.plot_bound = self.boundaries
         self.n_var = 2
         if n_var != self.n_var: print('The Holder table function is only defined on a 2D space.')
         self.optimalX = np.array([8.05502, 9.66459])
@@ -1130,6 +1158,7 @@ end
 class keanefcn():
     def __init__(self, n_var=2):
         self.boundaries = np.array([0, 10])
+        self.plot_bound = np.array([-10, 10])
         self.n_var = 2
         if n_var != self.n_var: print('Keane function is defined only on a 2D space.')
         self.optimalX = np.array([1.393249070031784, 0])
@@ -1169,6 +1198,7 @@ end
 class leonfcn():
     def __init__(self, n_var=2):
         self.boundaries = np.array([0, 10])
+        self.plot_bound = np.array([-1.5, 1.5])
         self.n_var = 2
         if n_var != self.n_var: print('Leon function is defined only on a 2D space.')
         self.optimalX = np.zeros(self.n_var) + 1
@@ -1209,6 +1239,7 @@ end
 class levin13fcn():
     def __init__(self, n_var=2):
         self.boundaries = np.array([-10, 10])
+        self.plot_bound = self.boundaries
         self.n_var = 2
         if n_var != self.n_var: print('Levi\'s function is only defined on a 2D space.')
         self.optimalX = np.zeros(self.n_var) + 1
@@ -1249,6 +1280,7 @@ end
 class matyasfcn():
     def __init__(self, n_var=2):
         self.boundaries = np.array([-10, 10])
+        self.plot_bound = self.boundaries
         self.n_var = 2
         if n_var != self.n_var: print('Matyas\'s function is only defined on a 2D space.')
         self.optimalX = np.zeros(self.n_var)
@@ -1288,6 +1320,7 @@ end
 class mccormickfcn():
     def __init__(self, n_var=2):
         self.boundaries = np.array([ [-1.5, -3], [4, 3] ])
+        self.plot_bound = np.array([ [-2, -3], [4, 3] ])
         self.n_var = 2
         if n_var != self.n_var: print('The McCormick function is only defined on a 2D space.')
         self.optimalX = np.array([-0.547, -1.547])
@@ -1324,6 +1357,7 @@ end
 class periodicfcn():
     def __init__(self, n_var=10):
         self.boundaries = np.array([-10, 10])
+        self.plot_bound = np.array([-2, 2])
         self.n_var = n_var
         self.optimalX = np.zeros(self.n_var)
         self.optimalF = self.f(self.optimalX)
@@ -1367,6 +1401,7 @@ end
 class pichenyfcn():
     def __init__(self, n_var=2):
         self.boundaries = np.array([0, 1])
+        self.plot_bound = np.array([-2, 2])
         self.n_var = 2
         if n_var != self.n_var: print('The Picheny function is only defined on a 2D space.')
         self.optimalX = np.zeros(self.n_var)
@@ -1408,6 +1443,7 @@ end
 class powellsumfcn():
     def __init__(self, n_var=10):
         self.boundaries = np.array([-1, 1])
+        self.plot_bound = np.array([-2, 2])
         self.n_var = n_var
         self.optimalX = np.zeros(self.n_var)
         self.optimalF = self.f(self.optimalX)
@@ -1449,6 +1485,7 @@ end
 class qingfcn():
     def __init__(self, n_var=10):
         self.boundaries = np.array([-500, 500])
+        self.plot_bound = np.array([-2, 2])
         self.n_var = n_var
         self.optimalX = np.sqrt( (np.arange(self.n_var) + 1) )
         self.optimalF = self.f(self.optimalX)
@@ -1490,6 +1527,7 @@ end
 class quarticfcn():
     def __init__(self, n_var=10):
         self.boundaries = np.array([-1.28, 1.28])
+        self.plot_bound = self.boundaries
         self.n_var = n_var
         self.optimalX = np.zeros(self.n_var)
         self.optimalF = self.f(self.optimalX)
@@ -1528,6 +1566,7 @@ end
 class rastriginfcn():
     def __init__(self, n_var=10):
         self.boundaries = np.array([-5.12, 5.12])
+        self.plot_bound = np.array([-5, 5])
         self.n_var = n_var
         self.optimalX = np.zeros(self.n_var)
         self.optimalF = self.f(self.optimalX)
@@ -1573,6 +1612,7 @@ end
 class ridgefcn():
     def __init__(self, n_var=10, d=1, alpha=0.5):
         self.boundaries = np.array([-5, 5])
+        self.plot_bound = np.array([-2, 2])
         self.d = d
         self.alpha = alpha
         self.n_var = n_var
@@ -1613,6 +1653,7 @@ end
 class rosenbrockfcn():
     def __init__(self, n_var=10):
         self.boundaries = np.array([-5, 10])
+        self.plot_bound = np.array([-10, 10])
         self.n_var = int( max(1, n_var) )
         if n_var < 1: print('Given input X cannot be empty')
         self.optimalX = np.zeros(self.n_var) + 1
@@ -1652,6 +1693,7 @@ end
 class salomonfcn():
     def __init__(self, n_var=10):
         self.boundaries = np.array([-100, 100])
+        self.plot_bound = np.array([-4, 4])
         self.n_var = n_var
         self.optimalX = np.zeros(self.n_var)
         self.optimalF = self.f(self.optimalX)
@@ -1691,6 +1733,7 @@ end
 class schaffern1fcn():
     def __init__(self, n_var=2):
         self.boundaries = np.array([-100, 100])
+        self.plot_bound = np.array([-50, 50])
         self.n_var = 2
         if n_var != self.n_var: print('Schaffer function N. 1 is defined only on a 2D space.')
         self.optimalX = np.zeros(self.n_var)
@@ -1734,6 +1777,7 @@ end
 class schaffern2fcn():
     def __init__(self, n_var=2):
         self.boundaries = np.array([-100, 100])
+        self.plot_bound = np.array([-50, 50])
         self.n_var = 2
         if n_var != self.n_var: print('The Schaffer N. 2 function is only defined on a 2D space.')
         self.optimalX = np.zeros(self.n_var)
@@ -1777,6 +1821,7 @@ end
 class schaffern3fcn():
     def __init__(self, n_var=2):
         self.boundaries = np.array([-100, 100])
+        self.plot_bound = np.array([-50, 50])
         self.n_var = 2
         if n_var != self.n_var: print('Schaffer function N. 3 is only defined on a 2D space.')
         self.optimalX = np.array([0, 1.253115])
@@ -1820,6 +1865,7 @@ end
 class schaffern4fcn():
     def __init__(self, n_var=2):
         self.boundaries = np.array([-100, 100])
+        self.plot_bound = np.array([-50, 50])
         self.n_var = 2
         if n_var != self.n_var: print('Schaffer function N. 4 is only defined on a 2D space.')
         self.optimalX = np.array([0, 1.253115])
@@ -1854,6 +1900,7 @@ end
 class schwefel220fcn():
     def __init__(self, n_var=10):
         self.boundaries = np.array([-100, 100])
+        self.plot_bound = np.array([-10, 10])
         self.n_var = n_var
         self.optimalX = np.zeros(self.n_var)
         self.optimalF = self.f(self.optimalX)
@@ -1882,6 +1929,7 @@ end
 class schwefel221fcn():
     def __init__(self, n_var=10):
         self.boundaries = np.array([-100, 100])
+        self.plot_bound = np.array([-10, 10])
         self.n_var = n_var
         self.optimalX = np.zeros(self.n_var)
         self.optimalF = self.f(self.optimalX)
@@ -1912,6 +1960,7 @@ end
 class schwefel222fcn():
     def __init__(self, n_var=10):
         self.boundaries = np.array([-100, 100])
+        self.plot_bound = np.array([-10, 10])
         self.n_var = n_var
         self.optimalX = np.zeros(self.n_var)
         self.optimalF = self.f(self.optimalX)
@@ -1941,6 +1990,7 @@ end
 class schwefel223fcn():
     def __init__(self, n_var=10):
         self.boundaries = np.array([-10, 10])
+        self.plot_bound = self.boundaries
         self.n_var = n_var
         self.optimalX = np.zeros(self.n_var)
         self.optimalF = self.f(self.optimalX)
@@ -1971,6 +2021,7 @@ end
 class schwefelfcn():
     def __init__(self, n_var=10):
         self.boundaries = np.array([-500, 500])
+        self.plot_bound = self.boundaries
         self.n_var = n_var
         self.optimalX = np.zeros(self.n_var) + 420.968746
         self.optimalF = self.f(self.optimalX)
@@ -2001,6 +2052,7 @@ end
 class spherefcn():
     def __init__(self, n_var=10):
         self.boundaries = np.array([-5.12, 5.12])
+        self.plot_bound = np.array([-5, 5])
         self.n_var = n_var
         self.optimalX = np.zeros(self.n_var)
         self.optimalF = self.f(self.optimalX)
@@ -2036,6 +2088,7 @@ end
 class styblinskitankfcn():
     def __init__(self, n_var=10):
         self.boundaries = np.array([-5, 5])
+        self.plot_bound = self.boundaries
         self.n_var = n_var
         self.optimalX = np.zeros(self.n_var) - 2.903534
         self.optimalF = self.f(self.optimalX)
@@ -2072,6 +2125,7 @@ end
 class sumsquaresfcn():
     def __init__(self, n_var=10):
         self.boundaries = np.array([-10, 10])
+        self.plot_bound = self.boundaries
         self.n_var = n_var
         self.optimalX = np.zeros(self.n_var)
         self.optimalF = self.f(self.optimalX)
@@ -2110,6 +2164,7 @@ end
 class threehumpcamelfcn():
     def __init__(self, n_var=2):
         self.boundaries = np.array([-5, 5])
+        self.plot_bound = np.array([-2, 2])
         self.n_var = 2
         if n_var != self.n_var: print('The Three-hump camel function is only defined on a 2D space.')
         self.optimalX = np.zeros(self.n_var)
@@ -2150,6 +2205,7 @@ end
 class wolfefcn():
     def __init__(self, n_var=3):
         self.boundaries = np.array([0, 2])
+        self.plot_bound = self.boundaries
         self.n_var = 3
         if n_var != self.n_var: print('The Wolfe function is defined only on the 3-D space.')
         self.optimalX = np.zeros(self.n_var)
@@ -2190,6 +2246,7 @@ end
 class xinsheyangn1fcn():
     def __init__(self, n_var=10):
         self.boundaries = np.array([-5, 5])
+        self.plot_bound = self.boundaries
         self.n_var = n_var
         self.optimalX = np.zeros(self.n_var)
         self.optimalF = self.f(self.optimalX)
@@ -2222,6 +2279,7 @@ end
 class xinsheyangn2fcn():
     def __init__(self, n_var=10):
         self.boundaries = np.array([-2 * np.pi, 2 * np.pi])
+        self.plot_bound = np.array([-10, 10])
         self.n_var = n_var
         self.optimalX = np.zeros(self.n_var)
         self.optimalF = self.f(self.optimalX)
@@ -2269,6 +2327,7 @@ end
 class xinsheyangn3fcn():
     def __init__(self, n_var=10, beta=15, m=5):
         self.boundaries = np.array([-2 * np.pi, 2 * np.pi])
+        self.plot_bound = np.array([-10, 10])
         self.beta = beta
         self.m = m
         self.n_var = n_var
@@ -2302,6 +2361,7 @@ end
 class xinsheyangn4fcn():
     def __init__(self, n_var=10):
         self.boundaries = np.array([-10, 10])
+        self.plot_bound = self.boundaries
         self.n_var = n_var
         self.optimalX = np.zeros(self.n_var)
         self.optimalF = self.f(self.optimalX)
@@ -2341,6 +2401,7 @@ end
 class zakharovfcn():
     def __init__(self, n_var=10):
         self.boundaries = np.array([-5, 10])
+        self.plot_bound = np.array([-10, 10])
         self.n_var = n_var
         self.optimalX = np.zeros(self.n_var)
         self.optimalF = self.f(self.optimalX)

@@ -1,6 +1,6 @@
 from PyBenchFCN import SingleObjectiveProblem as SOP
 
-def set_problem(fcn, n_var):
+def set_sop(fcn, n_var):
     if fcn.lower() == "f1" or fcn == "ackley": return SOP.ackleyfcn(n_var=n_var)
     if fcn.lower() == "f2" or fcn == "ackleyn2": return SOP.ackleyn2fcn(n_var=n_var)
     if fcn.lower() == "f3" or fcn == "ackleyn3": return SOP.ackleyn3fcn(n_var=n_var)
