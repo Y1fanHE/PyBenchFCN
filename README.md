@@ -2,9 +2,6 @@
 
 A python implementation of optimization benchmark functions (v1.0.0)
 
-```n-dim``` ```differentiable``` ```non-convex``` ```multimodal``` ```separable```
-
-
 ## Introduction
 
 This library is a python implementation for the MatLab package [BenchmarkFcns Toolbox](http://benchmarkfcns.xyz/).
