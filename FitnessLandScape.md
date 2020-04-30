@@ -94,6 +94,8 @@
 
 ## Gramacy & Lee Function
 
+**This function does not support 2D domain.**
+
 <!-- <p float="left" align="center"><img src="./image/f24_3D.svg" width=400><img src="./image/f24_2D.svg" width=400></p> -->
 
 ## Griewank Function
@@ -222,6 +224,8 @@
 <p float="left" align="center"><img src="./image/f55_3D.svg" width=400><img src="./image/f55_2D.svg" width=400></p>
 
 ## Wolfe Function
+
+**This function does not support 2D domain.**
 
 <!-- <p float="left" align="center"><img src="./image/f56_3D.svg" width=400><img src="./image/f56_2D.svg" width=400></p> -->
 
