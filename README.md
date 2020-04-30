@@ -27,9 +27,6 @@ problem = SOP.ackleyfcn(n_var)                  # Ackley problem
 '''same function as the code above
 from PyBenchFCN import Factory
 problem = Factory.set_sop("f1", n_var)
-
-```n-dim``` ```differentiable``` ```non-convex``` ```multimodal``` ```separable```
-
 '''
 
 print( np.round(problem.optimalF, 5) )          # show rounded optimal value
@@ -290,3 +287,10 @@ Totally, 61 functions are implemented. The plot of 2D versions of 59 problems ar
 - Zakharov Function [>>](./FitnessLandScape.md#zakharov-function)
 
 ```n-dim``` ```differentiable``` ```convex``` ```unimodal``` ```non-separable```
+
+## Acknowledgement
+
+PyBenchFCN is maintained by [Y1fanHE](https://y1fanhe.github.io). The author of this repostory is very grateful to Mr. Mazhar Ansari Ardeh, who implemented the MatLab package BenchFCNs Toolbox.
+
+- If you find any mistakes, please report at a new issue.
+- If you want to help me implement more benchmarks (discrete optimization, multi-objective optimization), please contact at [he.yifan.xs@alumni.tsukuba.ac.jp](mailto:he.yifan.xs@alumni.tsukuba.ac.jp).
