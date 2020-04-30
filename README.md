@@ -1,6 +1,9 @@
-# PyBenchFCN
+<h1><p align="center"># PyBenchFCN #</p></h1>
 
-A python implementation of optimization benchmark functions (v1.0.0)
+<p align="center">
+<img src="./image/f51_3D.svg" width=300><img src="./image/f51_2D.svg" width=300>
+<img src="./image/f58_2D.svg" width=300><img src="./image/f58_3D.svg" width=300>
+</p>
 
 ## Introduction
 
