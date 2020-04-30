@@ -12,6 +12,7 @@
   - [Set Benchmark Function](#set-benchmark-function)
   - [Plot Fitness Landscape](#plot-fitness-landscape)
 - [List of Functions](#list-of-functions)
+- [Acknowledgement](#acknowledgement)
 
 ## How to Install
 
