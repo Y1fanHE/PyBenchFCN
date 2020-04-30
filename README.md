@@ -1,6 +1,6 @@
 # PyBenchFCN
 
-A python implementation of optimization benchmark functions (v0.0.2)
+A python implementation of optimization benchmark functions (v1.0.0)
 
 ## Introduction
 
