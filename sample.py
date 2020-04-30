@@ -1,4 +1,4 @@
-'''
+'''ABSTRACT
 This program shows an example of using PyBenchFCN to do optimization.
 The sample code shows a differential evolution algorithm solving 10-D
 rastrigin function. With a numpy seed of 1001, the result should be
