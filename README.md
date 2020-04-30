@@ -24,7 +24,7 @@ n_pop = 3                                       # size of population
 
 problem = SOP.ackleyfcn(n_var)                  # Ackley problem
 
-print(problem.optimalF)                         # show optimal value
+print( np.round(problem.optimalF, 5) )          # show rounded optimal value
 
 xl, xu = problem.boundaries                     # bound of problem
 
@@ -39,64 +39,64 @@ print( problem.F(X) )                           # show fitness values
 
 Totally, 61 functions are implemented. Please check the homepage of [BenchmarkFcns Toolbox](http://benchmarkfcns.xyz/) for the documentation.
 
-- ackley
-- ackleyn2
-- ackleyn3
-- adjiman
-- alpinen1
-- alpinen2
-- bartelsconn
-- beale
-- bird
-- bohachevskyn1
-- bohachevskyn2
-- booth
-- brent
-- brown
-- bukinn6
-- crossintray
-- deckkersaarts
-- dropwave
-- easom
-- eggcrate
-- eggholder
-- exponential
-- goldsteinprice
-- gramacylee
-- griewank
-- happycat
-- himmelblau
-- holdertable
-- keane
-- leon
-- levin13
-- matyas
-- mccormick
-- periodic
-- picheny
-- powellsum
-- qing
-- quartic
-- rastrigin
-- ridge
-- rosenbrock
-- salomon
-- schaffern1
-- schaffern2
-- schaffern3
-- schaffern4
-- schwefel220
-- schwefel221
-- schwefel222
-- schwefel223
-- schwefel
-- sphere
-- styblinskitank
-- sumsquares
-- threehumpcamel
-- wolfe
-- xinsheyangn1
-- xinsheyangn2
-- xinsheyangn3
-- xinsheyangn4
-- zakharov
+- Ackley Function
+- Ackley N.2 Function
+- Ackley N.3 Function
+- Adjiman Function
+- Alpine N.1 Function
+- Alpine N.2 Function
+- Bartelsconn Function
+- Beale Function
+- Bird Function
+- Bohachevsky N.1 Function
+- Bohachevsky N.2 Function
+- Booth Function
+- Brent Function
+- Brown Function
+- Bukin N.6 Function
+- Cross-in-Tray Function
+- Deckkers-Aarts Function
+- Dropwave Function
+- Easom Function
+- Egg Crate Function
+- Eggholder Function
+- Exponential Function
+- Goldstein-Price Function
+- Gramacy & Lee Function
+- Griewank Function
+- Happy Cat Function
+- Himmelblau Function
+- Holder-Table Function
+- Keane Function
+- Leon Function
+- Levi N.13 Function
+- Matyas Function
+- McCormick Function
+- Periodic Function
+- Picheny Function
+- Powell Sum Function
+- Qing Function
+- Quartic Function
+- Rastrigin Function
+- Ridge Function
+- Rosenbrock Function
+- Salomon Function
+- Schaffer N.1 Function
+- Schaffer N.2 Function
+- Schaffer N.3 Function
+- Schaffer N.4 Function
+- Schwefel 2.20 Function
+- Schwefel 2.21 Function
+- Schwefel 2.22 Function
+- Schwefel 2.23 Function
+- Schwefel Function
+- Sphere Function
+- Styblinskitank Function
+- Sum Squares Function
+- Three-Hump Camel Function
+- Wolfe Function
+- Xin-She Yang N.1 Function
+- Xin-She Yang N.2 Function
+- Xin-She Yang N.3 Function
+- Xin-She Yang N.4 Function
+- Zakharov Function
