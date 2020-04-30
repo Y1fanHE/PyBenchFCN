@@ -74,7 +74,7 @@ Totally, 61 functions are implemented. The plot of 2D versions of 59 problems ar
 - Holder-Table Function [>>](./FitnessLandScape.md#holder-table-function)
 - Keane Function [>>](./FitnessLandScape.md#keane-function)
 - Leon Function [>>](./FitnessLandScape.md#leon-function)
-- Levy N.13 Function [>>](./FitnessLandScape.md#levi-n13-function)
+- Levi N.13 Function [>>](./FitnessLandScape.md#levi-n13-function)
 - Matyas Function [>>](./FitnessLandScape.md#matyas-function)
 - McCormick Function [>>](./FitnessLandScape.md#mccormick-function)
 - Periodic Function [>>](./FitnessLandScape.md#periodic-function)
@@ -98,7 +98,7 @@ Totally, 61 functions are implemented. The plot of 2D versions of 59 problems ar
 - Sphere Function [>>](./FitnessLandScape.md#sphere-function)
 - StyblinskitankFunction [>>](./FitnessLandScape.md#styblinskitank-function)
 - Sum Squares Function [>>](./FitnessLandScape.md#sum-squares-function)
-- Three-Hump-Camel Function [>>](./FitnessLandScape.md#three-hump-camel-function)
+- Three-Hump Camel Function [>>](./FitnessLandScape.md#three-hump-camel-function)
 - Wolfe Function
 - Xin-She Yang N.1 Function [>>](./FitnessLandScape.md#xin-she-yang-n1-function)
 - Xin-She Yang N.2 Function [>>](./FitnessLandScape.md#xin-she-yang-n2-function)
