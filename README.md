@@ -7,6 +7,12 @@
 <img src="./image/f51_3D.svg" width=300><img src="./image/f51_2D.svg" width=300></p>
 <p align="center"><img src="./image/f58_2D.svg" width=300><img src="./image/f58_3D.svg" width=300></p>
 
+- [How to Install](#how-to-install)
+- [How to Use](#how-to-use)
+  - [Set Benchmark Function](#set-benchmark-function)
+  - [Plot Fitness Landscape](#plot-fitness-landscape)
+- [List of Functions](#list-of-functions)
+
 ## How to Install
 
 This library is a python implementation for the MatLab package [BenchmarkFcns Toolbox](http://benchmarkfcns.xyz/).
