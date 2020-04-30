@@ -25,7 +25,7 @@ You can simply install with command ```pip install PyBenchFCN```.
 
 ### Set Benchmark Function
 
-To set a benchmark function, one may see the sample code in ```Factory.py``` in the [repository](https://github.com/Y1fanHE/PyBenchFCN), or follow the script below.
+To set a benchmark function, one may see the sample code in ```Factory.py``` in the [repository](https://github.com/Y1fanHE/PyBenchFCN), or follow the script below. Also, there is a sample optimization program provided in ```sample.py```.
 
 ```python3
 import numpy as np
