@@ -1,6 +1,6 @@
 # PyBenchFCN
 
-A python implementation of optimization benchmark functions (v0.0.2)
+A python implementation of optimization benchmark functions (v1.0.0)
 
 ## Introduction
 
@@ -26,7 +26,7 @@ problem = SOP.ackleyfcn(n_var)                  # Ackley problem
 
 '''same function as the code above
 from PyBenchFCN import Factory
-problem = Factory.set_sop("f1")
+problem = Factory.set_sop("f1", n_var)
 '''
 
 print( np.round(problem.optimalF, 5) )          # show rounded optimal value
@@ -74,7 +74,7 @@ Totally, 61 functions are implemented. The plot of 2D versions of 59 problems ar
 - Holder-Table Function [>>](./FitnessLandScape.md#holder-table-function)
 - Keane Function [>>](./FitnessLandScape.md#keane-function)
 - Leon Function [>>](./FitnessLandScape.md#leon-function)
-- Levy N.13 Function [>>](./FitnessLandScape.md#levi-n13-function)
+- Levi N.13 Function [>>](./FitnessLandScape.md#levi-n13-function)
 - Matyas Function [>>](./FitnessLandScape.md#matyas-function)
 - McCormick Function [>>](./FitnessLandScape.md#mccormick-function)
 - Periodic Function [>>](./FitnessLandScape.md#periodic-function)
@@ -96,9 +96,9 @@ Totally, 61 functions are implemented. The plot of 2D versions of 59 problems ar
 - Schwefel 2.23 Function [>>](./FitnessLandScape.md#schwefel-223-function)
 - Schwefel Function [>>](./FitnessLandScape.md#schwefel-function)
 - Sphere Function [>>](./FitnessLandScape.md#sphere-function)
-- StyblinskitankFunction [>>](./FitnessLandScape.md#styblinskitank-function)
+- Styblinskitank Function [>>](./FitnessLandScape.md#styblinskitank-function)
 - Sum Squares Function [>>](./FitnessLandScape.md#sum-squares-function)
-- Three-Hump-Camel Function [>>](./FitnessLandScape.md#three-hump-camel-function)
+- Three-Hump Camel Function [>>](./FitnessLandScape.md#three-hump-camel-function)
 - Wolfe Function
 - Xin-She Yang N.1 Function [>>](./FitnessLandScape.md#xin-she-yang-n1-function)
 - Xin-She Yang N.2 Function [>>](./FitnessLandScape.md#xin-she-yang-n2-function)
