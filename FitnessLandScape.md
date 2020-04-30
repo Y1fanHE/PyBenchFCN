@@ -1,4 +1,4 @@
-# Fitness Landscape of Function
+# Fitness Landscape of Functions
 
 ## Ackley Function
 

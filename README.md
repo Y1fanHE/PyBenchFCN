@@ -2,6 +2,9 @@
 
 A python implementation of optimization benchmark functions (v1.0.0)
 
+```n-dim``` ```differentiable``` ```non-convex``` ```multimodal``` ```separable```
+
+
 ## Introduction
 
 This library is a python implementation for the MatLab package [BenchmarkFcns Toolbox](http://benchmarkfcns.xyz/).
@@ -27,6 +30,9 @@ problem = SOP.ackleyfcn(n_var)                  # Ackley problem
 '''same function as the code above
 from PyBenchFCN import Factory
 problem = Factory.set_sop("f1", n_var)
+
+```n-dim``` ```differentiable``` ```non-convex``` ```multimodal``` ```separable```
+
 '''
 
 print( np.round(problem.optimalF, 5) )          # show rounded optimal value
@@ -45,63 +51,245 @@ print( problem.F(X) )                           # show fitness values
 Totally, 61 functions are implemented. The plot of 2D versions of 59 problems are provided. Please check the homepage of [BenchmarkFcns Toolbox](http://benchmarkfcns.xyz/) for the further documentation.
 
 - Ackley Function [>>](./FitnessLandScape.md#ackley-function)
+
+```n-dim``` ```differentiable``` ```non-convex``` ```multimodal``` ```separable```
+
 - Ackley N.2 Function [>>](./FitnessLandScape.md#ackley-n2-function)
+
+```2-dim``` ```differentiable``` ```convex``` ```unimodal``` ```non-separable```
+
 - Ackley N.3 Function [>>](./FitnessLandScape.md#ackley-n3-function)
+
+```2-dim``` ```differentiable``` ```non-convex``` ```multimodal``` ```non-separable```
+
 - Adjiman Function [>>](./FitnessLandScape.md#adjiman-function)
+
+```2-dim``` ```differentiable``` ```non-convex``` ```multimodal``` ```non-separable```
+
 - Alpine N.1 Function [>>](./FitnessLandScape.md#alpine-n1-function)
+
+```n-dim``` ```differentiable``` ```non-convex``` ```multimodal``` ```non-separable```
+
 - Alpine N.2 Function [>>](./FitnessLandScape.md#alpine-n2-function)
+
+```n-dim``` ```differentiable``` ```non-convex``` ```multimodal``` ```non-separable```
+
 - Bartelsconn Function [>>](./FitnessLandScape.md#bartelsconn-function)
+
+```2-dim``` ```non-differentiable``` ```non-convex``` ```multimodal``` ```non-separable```
+
 - Beale Function [>>](./FitnessLandScape.md#beale-function)
+
+```2-dim``` ```differentiable``` ```non-convex``` ```multimodal``` ```non-separable```
+
 - Bird Function [>>](./FitnessLandScape.md#bird-function)
+
+```2-dim``` ```differentiable``` ```non-convex``` ```multimodal``` ```non-separable```
+
 - Bohachevsky N.1 Function [>>](./FitnessLandScape.md#bohachevsky-n1-function)
+
+```2-dim``` ```differentiable``` ```non-convex``` ```multimodal``` ```non-separable```
+
 - Bohachevsky N.2 Function [>>](./FitnessLandScape.md#bohachevsky-n2-function)
+
+```2-dim``` ```differentiable``` ```non-convex``` ```multimodal``` ```non-separable```
+
 - Booth Function [>>](./FitnessLandScape.md#booth-function)
+
+```2-dim``` ```differentiable``` ```convex``` ```unimodal``` ```non-separable```
+
 - Brent Function [>>](./FitnessLandScape.md#brent-function)
+
+```2-dim``` ```differentiable``` ```convex``` ```unimodal``` ```non-separable```
+
 - BrownFunction [>>](./FitnessLandScape.md#brown-function)
+
+```n-dim``` ```differentiable``` ```convex``` ```unimodal``` ```non-separable```
+
 - Bukin N.6 Function [>>](./FitnessLandScape.md#bukin-n6-function)
+
+```2-dim``` ```non-differentiable``` ```convex``` ```multimodal``` ```non-separable```
+
 - Cross-in-Tray Function [>>](./FitnessLandScape.md#cross-in-tray-function)
+
+```2-dim``` ```non-differentiable``` ```non-convex``` ```multimodal``` ```non-separable```
+
 - Deckkers-Aarts Function [>>](./FitnessLandScape.md#deckkers-aarts-function)
+
+```2-dim``` ```differentiable``` ```non-convex``` ```multimodal``` ```non-separable```
+
 - Dropwave Function [>>](./FitnessLandScape.md#dropwave-function)
+
+```2-dim``` ```differentiable``` ```non-convex``` ```multimodal``` ```non-separable```
+
 - Easom Function [>>](./FitnessLandScape.md#easom-function)
+
+```2-dim``` ```differentiable``` ```non-convex``` ```multimodal``` ```separable```
+
 - Egg Crate Function [>>](./FitnessLandScape.md#egg-crate-function)
+
+```2-dim``` ```differentiable``` ```non-convex``` ```multimodal``` ```separable```
+
 - Eggholder Function [>>](./FitnessLandScape.md#eggholder-function)
+
+```2-dim``` ```differentiable``` ```non-convex``` ```multimodal``` ```non-separable```
+
 - Exponential Function [>>](./FitnessLandScape.md#exponential-function)
+
+```n-dim``` ```differentiable``` ```convex``` ```unimodal``` ```non-separable```
+
 - Goldstein-Price Function [>>](./FitnessLandScape.md#goldstein-price-function)
+
+```2-dim``` ```differentiable``` ```non-convex``` ```multimodal``` ```non-separable```
+
 - Gramacy & Lee Function
+
+```1-dim``` ```differentiable``` ```non-convex``` ```multimodal``` ```separable```
+
 - Griewank Function [>>](./FitnessLandScape.md#griewank-function)
+
+```n-dim``` ```differentiable``` ```non-convex``` ```multimodal``` ```non-separable```
+
 - Happy Cat Function [>>](./FitnessLandScape.md#happy-cat-function)
+
+```n-dim``` ```differentiable``` ```non-convex``` ```multimodal``` ```non-separable```
+
 - Himmelblau Function [>>](./FitnessLandScape.md#himmelblau-function)
+
+```2-dim``` ```differentiable``` ```non-convex``` ```multimodal``` ```non-separable```
+
 - Holder-Table Function [>>](./FitnessLandScape.md#holder-table-function)
+
+```2-dim``` ```non-differentiable``` ```non-convex``` ```multimodal``` ```non-separable```
+
 - Keane Function [>>](./FitnessLandScape.md#keane-function)
+
+```2-dim``` ```differentiable``` ```non-convex``` ```multimodal``` ```non-separable```
+
 - Leon Function [>>](./FitnessLandScape.md#leon-function)
+
+```2-dim``` ```differentiable``` ```non-convex``` ```multimodal``` ```non-separable```
+
 - Levi N.13 Function [>>](./FitnessLandScape.md#levi-n13-function)
+
+```2-dim``` ```differentiable``` ```non-convex``` ```multimodal``` ```non-separable```
+
 - Matyas Function [>>](./FitnessLandScape.md#matyas-function)
+
+```2-dim``` ```differentiable``` ```convex``` ```unimodal``` ```non-separable```
+
 - McCormick Function [>>](./FitnessLandScape.md#mccormick-function)
+
+```2-dim``` ```differentiable``` ```convex``` ```multimodal``` ```non-separable```
+
 - Periodic Function [>>](./FitnessLandScape.md#periodic-function)
+
+```n-dim``` ```differentiable``` ```non-convex``` ```multimodal``` ```non-separable```
+
 - Picheny Function [>>](./FitnessLandScape.md#picheny-function)
+
+```2-dim``` ```differentiable``` ```non-convex``` ```multimodal``` ```non-separable```
+
 - Powell Sum Function [>>](./FitnessLandScape.md#powell-sum-function)
+
+```n-dim``` ```differentiable``` ```convex``` ```unimodal``` ```separable```
+
 - Qing Function [>>](./FitnessLandScape.md#qing-function)
+
+```n-dim``` ```differentiable``` ```non-convex``` ```multimodal``` ```non-separable```
+
 - Quatric Function [>>](./FitnessLandScape.md#quartic-function)
+
+```n-dim``` ```differentiable``` ```non-convex``` ```multimodal``` ```separable``` ```random```
+
 - RastriginFunction [>>](./FitnessLandScape.md#rastrigin-function)
+
+```n-dim``` ```differentiable``` ```non-convex``` ```multimodal``` ```separable```
+
 - Ridge Function [>>](./FitnessLandScape.md#ridge-function)
+
+```n-dim``` ```differentiable``` ```non-convex``` ```multimodal``` ```non-separable```
+
 - Rosenbrock Function [>>](./FitnessLandScape.md#rosenbrock-function)
+
+```n-dim``` ```differentiable``` ```convex``` ```unimodal``` ```non-separable```
+
 - Salomon Function [>>](./FitnessLandScape.md#salomon-function)
+
+```n-dim``` ```differentiable``` ```non-convex``` ```multimodal``` ```non-separable```
+
 - Schaffer N.1 Function [>>](./FitnessLandScape.md#schaffer-n1-function)
+
+```2-dim``` ```differentiable``` ```non-convex``` ```multimodal``` ```non-separable```
+
 - Schaffer N.2 Function [>>](./FitnessLandScape.md#schaffer-n2-function)
+
+```2-dim``` ```differentiable``` ```non-convex``` ```multimodal``` ```non-separable```
+
 - Schaffer N.3 Function [>>](./FitnessLandScape.md#schaffer-n3-function)
+
+```2-dim``` ```differentiable``` ```non-convex``` ```multimodal``` ```non-separable```
+
 - Schaffer N.4 Function [>>](./FitnessLandScape.md#schaffer-n4-function)
+
+```2-dim``` ```differentiable``` ```non-convex``` ```multimodal``` ```non-separable```
+
 - Schwefel 2.20 Function [>>](./FitnessLandScape.md#schwefel-220-function)
+
+```n-dim``` ```non-differentiable``` ```convex``` ```unimodal``` ```separable```
+
 - Schwefel 2.21 Function [>>](./FitnessLandScape.md#schwefel-221-function)
+
+```n-dim``` ```non-differentiable``` ```convex``` ```unimodal``` ```separable```
+
 - Schwefel 2.22 Function [>>](./FitnessLandScape.md#schwefel-222-function)
+
+```n-dim``` ```non-differentiable``` ```convex``` ```unimodal``` ```non-separable```
+
 - Schwefel 2.23 Function [>>](./FitnessLandScape.md#schwefel-223-function)
+
+```n-dim``` ```differentiable``` ```convex``` ```unimodal``` ```separable```
+
 - Schwefel Function [>>](./FitnessLandScape.md#schwefel-function)
+
+```n-dim``` ```differentiable``` ```non-convex``` ```multimodal``` ```separable```
+
 - Sphere Function [>>](./FitnessLandScape.md#sphere-function)
+
+```n-dim``` ```differentiable``` ```convex``` ```unimodal``` ```separable```
+
 - Styblinskitank Function [>>](./FitnessLandScape.md#styblinskitank-function)
+
+```n-dim``` ```differentiable``` ```non-convex``` ```multimodal``` ```separable```
+
 - Sum Squares Function [>>](./FitnessLandScape.md#sum-squares-function)
+
+```n-dim``` ```differentiable``` ```convex``` ```unimodal``` ```separable```
+
 - Three-Hump Camel Function [>>](./FitnessLandScape.md#three-hump-camel-function)
+
+```2-dim``` ```differentiable``` ```non-convex``` ```multimodal``` ```non-separable```
+
 - Wolfe Function
+
+```3-dim``` ```non-differentiable``` ```non-convex``` ```multimodal``` ```separable```
+
 - Xin-She Yang N.1 Function [>>](./FitnessLandScape.md#xin-she-yang-n1-function)
+
+```n-dim``` ```non-differentiable``` ```non-convex``` ```multimodal``` ```separable``` ```random```
+
 - Xin-She Yang N.2 Function [>>](./FitnessLandScape.md#xin-she-yang-n2-function)
+
+```n-dim``` ```non-differentiable``` ```non-convex``` ```multimodal``` ```non-separable```
+
 - Xin-She Yang N.3 Function [>>](./FitnessLandScape.md#xin-she-yang-n3-function)
+
+```n-dim``` ```differentiable``` ```non-convex``` ```multimodal``` ```non-separable```
+
 - Xin-She Yang N.4 Function [>>](./FitnessLandScape.md#xin-she-yang-n4-function)
+
+```n-dim``` ```non-differentiable``` ```non-convex``` ```multimodal``` ```non-separable```
+
 - Zakharov Function [>>](./FitnessLandScape.md#zakharov-function)
+
+```n-dim``` ```differentiable``` ```convex``` ```unimodal``` ```non-separable```
