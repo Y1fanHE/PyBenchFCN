@@ -1,11 +1,11 @@
-<h1><p align="center"># PyBenchFCN #</p></h1>
+<h1>
+<p align="center"># PyBenchFCN #</p>
+<p align="center">A python implementation of optimization benchmarks</p>
+</h1>
 
 <p align="center">
-<img src="./image/f51_3D.svg" width=300><img src="./image/f51_2D.svg" width=300>
-</p>
-<p align="center">
-<img src="./image/f58_2D.svg" width=300><img src="./image/f58_3D.svg" width=300>
-</p>
+<img src="./image/f51_3D.svg" width=300><img src="./image/f51_2D.svg" width=300></p>
+<p align="center"><img src="./image/f58_2D.svg" width=300><img src="./image/f58_3D.svg" width=300></p>
 
 ## Introduction
 
@@ -16,7 +16,9 @@ You can simply install with command ```pip install PyBenchFCN```.
 
 ## How to Use
 
-To use the package, one may see the sample code in ```Factory.py``` in the [repository](https://github.com/Y1fanHE/PyBenchFCN), or follow the script below.
+### Set Benchmark Function
+
+To set a benchmark function, one may see the sample code in ```Factory.py``` in the [repository](https://github.com/Y1fanHE/PyBenchFCN), or follow the script below.
 
 ```python3
 import numpy as np
@@ -43,6 +45,16 @@ print( problem.f(x) )                           # show fitness value
 
 X = np.random.uniform( xl, xu, (n_pop, n_var) ) # initialize a population
 print( problem.F(X) )                           # show fitness values
+```
+
+### Plot Fitness Landscape
+
+To plot a fitness landscape (2D space), one can use the code below.
+
+```python3
+from PyBenchFCN import Tool
+Tool.plot("sphere", savepath="img.svg")         # plot and save landscape of Sphere function
+Tool.plot("schwefel", plot_type="contour")      # plot contour plot of Schwefel function
 ```
 
 ## List of Functions
