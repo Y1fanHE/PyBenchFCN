@@ -13,7 +13,9 @@
   - [Plot Fitness Landscape](#plot-fitness-landscape)
 - [List of Functions](#list-of-functions)
   - [Classical Single-Objective Optimization](#classical-single-objective-optimization)
+  - [Discrete Optimization](#discrete-optimization)
   - [Multi-Objective Optimization](#multi-objective-optimization)
+  - [Real-World Optimization](#real-world-optimization)
 - [Authors](#authors)
 - [License](#license)
 - [Acknowledgement](#acknowledgement)
@@ -68,7 +70,7 @@ print( problem.F(X) )                           # show fitness values as 1d-arra
 
 ### Plot Fitness Landscape
 
-To plot a fitness landscape (2D space), one can use the code below. **Notice, this function only works for SOPs.**
+To plot a fitness landscape (2D space), one can use the code below. **Notice, this function only works for continuous SOPs.**
 
 ```python3
 from PyBenchFCN import Tool
@@ -82,7 +84,15 @@ Tool.plot("schwefel", plot_type="contour")      # plot contour plot of Schwefel 
 
 Totally, [61 single-objective functions](./SingleObjectiveProblem.md) are implemented. The plot of 2D versions of 59 problems are provided. Please check the homepage of [BenchmarkFcns Toolbox](http://benchmarkfcns.xyz/) or [this website](https://www.sfu.ca/~ssurjano/optimization.html) for the further documentation.
 
+### Discrete Optimization
+
+*Under development ...*
+
 ### Multi-Objective Optimization
+
+*Under development ...*
+
+### Real-World Optimization
 
 *Under development ...*
 
