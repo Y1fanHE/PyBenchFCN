@@ -10,7 +10,7 @@
 - [How to Install](#how-to-install)
 - [How to Use](#how-to-use)
   - [Classical Single-Objective Optimization](#classical-single-objective-optimization)
-    - [Set Benchmark Function](#set-benchmark-function)
+    - [Setup Benchmark Function](#setup-benchmark-function)
     - [Plot Fitness Landscape](#plot-fitness-landscape)
 - [List of Functions](#list-of-functions)
   - [Classical Single-Objective Optimization](#classical-single-objective-optimization-1)
@@ -22,8 +22,6 @@
 - [Acknowledgement](#acknowledgement)
 
 ## How to Install
-
-This library is a python implementation for the MatLab package [BenchmarkFcns Toolbox](http://benchmarkfcns.xyz/).
 
 You can simply install with command ```pip install PyBenchFCN```.
 - Pre-request: ```numpy```, ```matplotlib```
@@ -40,7 +38,7 @@ The input of each numerical optimization problem could be a 1-D ndarray, or 2-D 
   - an example of **group of solutions (population)** for 10D problem is ```np.random.uniform(0, 1, (5, 10))```, where each row (totally 5) is an individual.
   - <u>use ```F()``` to return an array of fitness value (1-D array).</u>
 
-#### Set Benchmark Function
+#### Setup Benchmark Function
 
 To set a benchmark function, one may see the sample code in ```Factory.py``` in the [repository](https://github.com/Y1fanHE/PyBenchFCN), or follow the script below. Also, there is a sample optimization program provided in ```sample.py```.
 
@@ -85,7 +83,7 @@ Tool.plot_sop("schwefel", plot_type="contour")  # plot contour plot of Schwefel 
 
 ### Classical Single-Objective Optimization
 
-Totally, [61 single-objective functions](./SingleObjectiveProblem.md) are implemented. The plot of 2D versions of 59 problems are provided. Please check the homepage of [BenchmarkFcns Toolbox](http://benchmarkfcns.xyz/) or [this website](https://www.sfu.ca/~ssurjano/optimization.html) for the further documentation.
+Totally, [61 single-objective functions](./SingleObjectiveProblem.md) are implemented based on [BenchmarkFcns Toolbox](http://benchmarkfcns.xyz/). The plot of 2D versions of 59 problems are provided. Please check the homepage of [BenchmarkFcns Toolbox](http://benchmarkfcns.xyz/) or [this website](https://www.sfu.ca/~ssurjano/optimization.html) for the further documentation.
 
 ### Discrete Optimization
 
