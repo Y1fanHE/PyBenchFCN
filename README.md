@@ -28,8 +28,12 @@ You can simply install with command ```pip install PyBenchFCN```.
 ## How to Use
 
 The input of each numerical optimization problem could be a 1-D ndarray, or 2-D ndarray.
-- **1-D array:** an example of **a solution (individual)** for 10D problem is ```np.random.uniform(0, 1, 10)```, where each entry is a decision variable. <u>In this case, use ```f()``` to return a fitness value (scalar for SOP, 1D-array for MOP).</u>
-- **2-D array:** an example of **group of solutions (population)** for 10D problem is ```np.random.uniform(0, 1, (5, 10))```, where each row (totally 5) is an individual. <u>In this case, use ```F()``` to return an array of fitness value (1-D array for SOP, 2-D array for MOP).</u>
+- **1-D array**
+  - an example of **a solution (individual)** for 10D problem is ```np.random.uniform(0, 1, 10)```, where each entry is a decision variable.
+  - <u>use ```f()``` to return a fitness value (scalar for SOP, 1D-array for MOP).</u>
+- **2-D array**
+  - an example of **group of solutions (population)** for 10D problem is ```np.random.uniform(0, 1, (5, 10))```, where each row (totally 5) is an individual.
+  - <u>use ```F()``` to return an array of fitness value (1-D array for SOP, 2-D array for MOP).</u>
 
 ### Set Benchmark Function
 
@@ -56,10 +60,10 @@ print( np.round(problem.optimalF, 5) )          # show rounded optimal value
 xl, xu = problem.boundaries                     # bound of problem
 
 x = np.random.uniform(xl, xu, n_var)            # initialize a solution
-print( problem.f(x) )                           # show fitness value
+print( problem.f(x) )                           # show fitness value as scalar
 
 X = np.random.uniform( xl, xu, (n_pop, n_var) ) # initialize a population
-print( problem.F(X) )                           # show fitness values
+print( problem.F(X) )                           # show fitness values as 1d-array
 ```
 
 ### Plot Fitness Landscape
