@@ -27,6 +27,10 @@ You can simply install with command ```pip install PyBenchFCN```.
 
 ## How to Use
 
+The input of each numerical optimization problem could be a 1-D ndarray, or 2-D ndarray.
+- **1-D array:** an example of **a solution (individual)** for 10D problem is ```np.random.uniform(0, 1, 10)```, where each entry is a decision variable. <u>In this case, use ```f()``` to return a fitness value (scalar for SOP, 1D-array for MOP).</u>
+- **2-D array:** an example of **group of solutions (population)** for 10D problem is ```np.random.uniform(0, 1, (5, 10))```, where each row (totally 5) is an individual. <u>In this case, use ```F()``` to return an array of fitness value (1-D array for SOP, 2-D array for MOP).</u>
+
 ### Set Benchmark Function
 
 To set a benchmark function, one may see the sample code in ```Factory.py``` in the [repository](https://github.com/Y1fanHE/PyBenchFCN), or follow the script below. Also, there is a sample optimization program provided in ```sample.py```.
@@ -60,7 +64,7 @@ print( problem.F(X) )                           # show fitness values
 
 ### Plot Fitness Landscape
 
-To plot a fitness landscape (2D space), one can use the code below.
+To plot a fitness landscape (2D space), one can use the code below. **Notice, this function only works for SOPs.**
 
 ```python3
 from PyBenchFCN import Tool
