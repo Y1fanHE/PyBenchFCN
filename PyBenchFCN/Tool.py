@@ -41,6 +41,7 @@ class plot():
         return X1, X2, F
 
     def _plot_surfaceSOP(self, INPUT):
+        if INPUT == None: return
         X1, X2, F = INPUT
         fig = plt.figure()
         ax = fig.add_subplot(111, projection='3d'); ax.plot_surface(X1, X2, F, cmap='winter_r')
@@ -48,6 +49,7 @@ class plot():
         plt.close("all")
 
     def _plot_contourSOP(self, INPUT):
+        if INPUT == None: return
         X1, X2, F = INPUT
         plt.figure()
         plt.contour(X1, X2, F, levels=self.n_level, cmap='winter_r'); plt.colorbar()

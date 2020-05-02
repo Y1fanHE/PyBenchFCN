@@ -4,8 +4,8 @@
 </h1>
 
 <p align="center">
-<img src="./image/f51_3D.svg" width=300><img src="./image/f51_2D.svg" width=300></p>
-<p align="center"><img src="./image/f58_2D.svg" width=300><img src="./image/f58_3D.svg" width=300></p>
+<img src="./image/f51_3D.png" width=300><img src="./image/f51_2D.png" width=300></p>
+<p align="center"><img src="./image/f58_2D.png" width=300><img src="./image/f58_3D.png" width=300></p>
 
 - [How to Install](#how-to-install)
 - [How to Use](#how-to-use)

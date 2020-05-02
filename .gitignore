@@ -2,3 +2,6 @@
 __*
 token
 .*.md
+dist
+build
+*.egg-info
