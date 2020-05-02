@@ -12,6 +12,8 @@
   - [Set Benchmark Function](#set-benchmark-function)
   - [Plot Fitness Landscape](#plot-fitness-landscape)
 - [List of Functions](#list-of-functions)
+  - [Classical Single-Objective Optimization](#classical-single-objective-optimization)
+  - [Multi-Objective Optimization](#multi-objective-optimization)
 - [Authors](#authors)
 - [License](#license)
 - [Acknowledgement](#acknowledgement)
@@ -68,7 +70,13 @@ Tool.plot("schwefel", plot_type="contour")      # plot contour plot of Schwefel 
 
 ## List of Functions
 
+### Classical Single-Objective Optimization
+
 Totally, [61 single-objective functions](./SingleObjectiveProblem.md) are implemented. The plot of 2D versions of 59 problems are provided. Please check the homepage of [BenchmarkFcns Toolbox](http://benchmarkfcns.xyz/) or [this website](https://www.sfu.ca/~ssurjano/optimization.html) for the further documentation.
+
+### Multi-Objective Optimization
+
+*Under development ...*
 
 ## Authors
 
@@ -76,7 +84,7 @@ Totally, [61 single-objective functions](./SingleObjectiveProblem.md) are implem
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
 ## Acknowledgement
 
