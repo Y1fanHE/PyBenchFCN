@@ -9,10 +9,11 @@
 
 - [How to Install](#how-to-install)
 - [How to Use](#how-to-use)
-  - [Set Benchmark Function](#set-benchmark-function)
-  - [Plot Fitness Landscape](#plot-fitness-landscape)
-- [List of Functions](#list-of-functions)
   - [Classical Single-Objective Optimization](#classical-single-objective-optimization)
+    - [Set Benchmark Function](#set-benchmark-function)
+    - [Plot Fitness Landscape](#plot-fitness-landscape)
+- [List of Functions](#list-of-functions)
+  - [Classical Single-Objective Optimization](#classical-single-objective-optimization-1)
   - [Discrete Optimization](#discrete-optimization)
   - [Multi-Objective Optimization](#multi-objective-optimization)
   - [Real-World Optimization](#real-world-optimization)
@@ -29,15 +30,17 @@ You can simply install with command ```pip install PyBenchFCN```.
 
 ## How to Use
 
+### Classical Single-Objective Optimization
+
 The input of each numerical optimization problem could be a 1-D ndarray, or 2-D ndarray.
 - **1-D array**
   - an example of **a solution (individual)** for 10D problem is ```np.random.uniform(0, 1, 10)```, where each entry is a decision variable.
-  - <u>use ```f()``` to return a fitness value (scalar for SOP, 1D-array for MOP).</u>
+  - <u>use ```f()``` to return a fitness value (scalar).</u>
 - **2-D array**
   - an example of **group of solutions (population)** for 10D problem is ```np.random.uniform(0, 1, (5, 10))```, where each row (totally 5) is an individual.
-  - <u>use ```F()``` to return an array of fitness value (1-D array for SOP, 2-D array for MOP).</u>
+  - <u>use ```F()``` to return an array of fitness value (1-D array).</u>
 
-### Set Benchmark Function
+#### Set Benchmark Function
 
 To set a benchmark function, one may see the sample code in ```Factory.py``` in the [repository](https://github.com/Y1fanHE/PyBenchFCN), or follow the script below. Also, there is a sample optimization program provided in ```sample.py```.
 
@@ -68,7 +71,7 @@ X = np.random.uniform( xl, xu, (n_pop, n_var) ) # initialize a population
 print( problem.F(X) )                           # show fitness values as 1d-array
 ```
 
-### Plot Fitness Landscape
+#### Plot Fitness Landscape
 
 To plot a fitness landscape (2D space), one can use the code below. **Notice, this function only works for continuous SOPs.**
 
