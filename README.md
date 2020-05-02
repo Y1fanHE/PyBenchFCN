@@ -88,7 +88,7 @@ This project is licensed under the MIT License - see the [LICENSE](./LICENSE) fi
 
 ## Acknowledgement
 
-PyBenchFCN is maintained by [Y1fanHE](https://y1fanhe.github.io). The author of this repostory is very grateful to Mr. Mazhar Ansari Ardeh, who implemented the MatLab package BenchFCNs Toolbox.
+PyBenchFCN is maintained by [Yifan He](https://y1fanhe.github.io). The author of this repostory is very grateful to Mr. Mazhar Ansari Ardeh, who implemented the MatLab package BenchFCNs Toolbox.
 
 - If you find any mistakes, please report at a new issue.
 - If you want to help me implement more benchmarks (discrete optimization, multi-objective optimization), please contact at [he.yifan.xs@alumni.tsukuba.ac.jp](mailto:he.yifan.xs@alumni.tsukuba.ac.jp).
