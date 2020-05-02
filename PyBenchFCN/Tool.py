@@ -2,13 +2,13 @@ from PyBenchFCN import Factory
 import numpy as np
 import matplotlib.pyplot as plt
 
-class plot():
-    def __init__(self, problem_name, savepath="./fig.png",
-                 problem_type="sop", plot_type="surface",
+class plot_sop():
+    def __init__(self, problem_name, plot_type="surface",
+                 mode="show", savepath="./fig.png",
                  plot_bound=None, n_part=100, n_level=10):
         self.problem_name = problem_name
+        self.mode = mode
         self.savepath = savepath
-        self.problem_type = problem_type
         self.plot_type = plot_type
         self.plot_bound = plot_bound
         self.n_part = n_part
@@ -16,9 +16,9 @@ class plot():
         self._do()
 
     def _do(self):
-        if self.problem_type == "sop" and self.plot_type == "surface":
+        if self.plot_type == "surface":
             self._plot_surfaceSOP(self._calc_plot_dataSOP())
-        if self.problem_type == "sop" and self.plot_type == "contour":
+        if self.plot_type == "contour":
             self._plot_contourSOP(self._calc_plot_dataSOP())
 
     def _calc_plot_dataSOP(self):
@@ -45,7 +45,10 @@ class plot():
         X1, X2, F = INPUT
         fig = plt.figure()
         ax = fig.add_subplot(111, projection='3d'); ax.plot_surface(X1, X2, F, cmap='winter_r')
-        plt.savefig(self.savepath)
+        if self.mode == "show":
+            plt.show()
+        if self.mode == "save":
+            plt.savefig(self.savepath)
         plt.close("all")
 
     def _plot_contourSOP(self, INPUT):
@@ -53,5 +56,8 @@ class plot():
         X1, X2, F = INPUT
         plt.figure()
         plt.contour(X1, X2, F, levels=self.n_level, cmap='winter_r'); plt.colorbar()
-        plt.savefig(self.savepath)
+        if self.mode == "show":
+            plt.show()
+        if self.mode == "save":
+            plt.savefig(self.savepath)
         plt.close("all")

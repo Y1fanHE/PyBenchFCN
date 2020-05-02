@@ -74,8 +74,8 @@ To plot a fitness landscape (2D space), one can use the code below. **Notice, th
 
 ```python3
 from PyBenchFCN import Tool
-Tool.plot("sphere", savepath="img.svg")         # plot and save landscape of Sphere function
-Tool.plot("schwefel", plot_type="contour")      # plot contour plot of Schwefel function
+Tool.plot_sop("sphere", mode="save")            # plot and save landscape of Sphere function
+Tool.plot_sop("schwefel", plot_type="contour")  # plot contour plot of Schwefel function
 ```
 
 ## List of Functions
