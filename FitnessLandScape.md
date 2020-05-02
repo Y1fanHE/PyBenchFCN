@@ -1,4 +1,7 @@
-<h1><p align="center"># Fitness Landscape of Functions #</p></h1>
+<h1>
+<p align="center"># List of Functions #</p>
+<p align="center">Fitness landscape of single-objective optimization functions</p>
+</h1>
 
 ## Ackley Function
 
