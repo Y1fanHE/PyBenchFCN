@@ -12,6 +12,8 @@
   - [Set Benchmark Function](#set-benchmark-function)
   - [Plot Fitness Landscape](#plot-fitness-landscape)
 - [List of Functions](#list-of-functions)
+- [Authors](#authors)
+- [License](#license)
 - [Acknowledgement](#acknowledgement)
 
 ## How to Install
@@ -68,11 +70,11 @@ Tool.plot("schwefel", plot_type="contour")      # plot contour plot of Schwefel 
 
 Totally, [61 single-objective functions](./SingleObjectiveProblem.md) are implemented. The plot of 2D versions of 59 problems are provided. Please check the homepage of [BenchmarkFcns Toolbox](http://benchmarkfcns.xyz/) or [this website](https://www.sfu.ca/~ssurjano/optimization.html) for the further documentation.
 
-# Authors
+## Authors
 
 [Yifan He](https://y1fanhe.github.io) @ Dept. of CS, UTsukuba
 
-# License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details
 
