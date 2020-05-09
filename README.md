@@ -1,5 +1,3 @@
-# PyBenchFCN
-
 - [How to Install](#how-to-install)
 - [How to Use](#how-to-use)
   - [Classical Single-Objective Optimization](#classical-single-objective-optimization)
