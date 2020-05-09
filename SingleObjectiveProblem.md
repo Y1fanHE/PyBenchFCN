@@ -188,249 +188,249 @@
 
 ## Ackley Function
 
-<p float="left" align="center"><img src="./image/f1_3D.png" width=400><img src="./image/f1_2D.png" width=400></p>
+![](./image/f1_3D.png) ![](./image/f1_2D.png)
 
 ## Ackley N.2 Function
 
-<p float="left" align="center"><img src="./image/f2_3D.png" width=400><img src="./image/f2_2D.png" width=400></p>
+![](./image/f2_3D.png) ![](./image/f2_2D.png)
 
 ## Ackley N.3 Function
 
-<p float="left" align="center"><img src="./image/f3_3D.png" width=400><img src="./image/f3_2D.png" width=400></p>
+![](./image/f3_3D.png) ![](./image/f3_2D.png)
 
 ## Adjiman Function
 
-<p float="left" align="center"><img src="./image/f4_3D.png" width=400><img src="./image/f4_2D.png" width=400></p>
+![](./image/f4_3D.png) ![](./image/f4_2D.png)
 
 ## Alpine N.1 Function
 
-<p float="left" align="center"><img src="./image/f5_3D.png" width=400><img src="./image/f5_2D.png" width=400></p>
+![](./image/f5_3D.png) ![](./image/f5_2D.png)
 
 ## Alpine N.2 Function
 
-<p float="left" align="center"><img src="./image/f6_3D.png" width=400><img src="./image/f6_2D.png" width=400></p>
+![](./image/f6_3D.png) ![](./image/f6_2D.png)
 
 ## Bartelsconn Function
 
-<p float="left" align="center"><img src="./image/f7_3D.png" width=400><img src="./image/f7_2D.png" width=400></p>
+![](./image/f7_3D.png) ![](./image/f7_2D.png)
 
 ## Beale Function
 
-<p float="left" align="center"><img src="./image/f8_3D.png" width=400><img src="./image/f8_2D.png" width=400></p>
+![](./image/f8_3D.png) ![](./image/f8_2D.png)
 
 ## Bird Function
 
-<p float="left" align="center"><img src="./image/f9_3D.png" width=400><img src="./image/f9_2D.png" width=400></p>
+![](./image/f9_3D.png) ![](./image/f9_2D.png)
 
 ## Bohachevsky N.1 Function
 
-<p float="left" align="center"><img src="./image/f10_3D.png" width=400><img src="./image/f10_2D.png" width=400></p>
+![](./image/f10_3D.png) ![](./image/f10_2D.png)
 
 ## Bohachevsky N.2 Function
 
-<p float="left" align="center"><img src="./image/f11_3D.png" width=400><img src="./image/f11_2D.png" width=400></p>
+![](./image/f11_3D.png) ![](./image/f11_2D.png)
 
 ## Booth Function
 
-<p float="left" align="center"><img src="./image/f12_3D.png" width=400><img src="./image/f12_2D.png" width=400></p>
+![](./image/f12_3D.png) ![](./image/f12_2D.png)
 
 ## Brent Function
 
-<p float="left" align="center"><img src="./image/f13_3D.png" width=400><img src="./image/f13_2D.png" width=400></p>
+![](./image/f13_3D.png) ![](./image/f13_2D.png)
 
 ## Brown Function
 
-<p float="left" align="center"><img src="./image/f14_3D.png" width=400><img src="./image/f14_2D.png" width=400></p>
+![](./image/f14_3D.png) ![](./image/f14_2D.png)
 
 ## Bukin N.6 Function
 
-<p float="left" align="center"><img src="./image/f15_3D.png" width=400><img src="./image/f15_2D.png" width=400></p>
+![](./image/f15_3D.png) ![](./image/f15_2D.png)
 
 ## Cross-in-Tray Function
 
-<p float="left" align="center"><img src="./image/f16_3D.png" width=400><img src="./image/f16_2D.png" width=400></p>
+![](./image/f16_3D.png) ![](./image/f16_2D.png)
 
 ## Deckkers-Aarts Function
 
-<p float="left" align="center"><img src="./image/f17_3D.png" width=400><img src="./image/f17_2D.png" width=400></p>
+![](./image/f17_3D.png) ![](./image/f17_2D.png)
 
 ## Dropwave Function
 
-<p float="left" align="center"><img src="./image/f18_3D.png" width=400><img src="./image/f18_2D.png" width=400></p>
+![](./image/f18_3D.png) ![](./image/f18_2D.png)
 
 ## Easom Function
 
-<p float="left" align="center"><img src="./image/f19_3D.png" width=400><img src="./image/f19_2D.png" width=400></p>
+![](./image/f19_3D.png) ![](./image/f19_2D.png)
 
 ## Egg Crate Function
 
-<p float="left" align="center"><img src="./image/f20_3D.png" width=400><img src="./image/f20_2D.png" width=400></p>
+![](./image/f20_3D.png) ![](./image/f20_2D.png)
 
 ## Eggholder Function
 
-<p float="left" align="center"><img src="./image/f21_3D.png" width=400><img src="./image/f21_2D.png" width=400></p>
+![](./image/f21_3D.png) ![](./image/f21_2D.png)
 
 ## Exponential Function
 
-<p float="left" align="center"><img src="./image/f22_3D.png" width=400><img src="./image/f22_2D.png" width=400></p>
+![](./image/f22_3D.png) ![](./image/f22_2D.png)
 
 ## Goldstein-Price Function
 
-<p float="left" align="center"><img src="./image/f23_3D.png" width=400><img src="./image/f23_2D.png" width=400></p>
+![](./image/f23_3D.png) ![](./image/f23_2D.png)
 
 ## Gramacy & Lee Function
 
 **This function does not support 2D domain.**
 
-<!-- <p float="left" align="center"><img src="./image/f24_3D.png" width=400><img src="./image/f24_2D.png" width=400></p> -->
+<!-- ![](./image/f24_3D.png) ![](./image/f24_2D.png) -->
 
 ## Griewank Function
 
-<p float="left" align="center"><img src="./image/f25_3D.png" width=400><img src="./image/f25_2D.png" width=400></p>
+![](./image/f25_3D.png) ![](./image/f25_2D.png)
 
 ## Happy Cat Function
 
-<p float="left" align="center"><img src="./image/f26_3D.png" width=400><img src="./image/f26_2D.png" width=400></p>
+![](./image/f26_3D.png) ![](./image/f26_2D.png)
 
 ## Himmelblau Function
 
-<p float="left" align="center"><img src="./image/f27_3D.png" width=400><img src="./image/f27_2D.png" width=400></p>
+![](./image/f27_3D.png) ![](./image/f27_2D.png)
 
 ## Holder-Table Function
 
-<p float="left" align="center"><img src="./image/f28_3D.png" width=400><img src="./image/f28_2D.png" width=400></p>
+![](./image/f28_3D.png) ![](./image/f28_2D.png)
 
 ## Keane Function
 
-<p float="left" align="center"><img src="./image/f29_3D.png" width=400><img src="./image/f29_2D.png" width=400></p>
+![](./image/f29_3D.png) ![](./image/f29_2D.png)
 
 ## Leon Function
 
-<p float="left" align="center"><img src="./image/f30_3D.png" width=400><img src="./image/f30_2D.png" width=400></p>
+![](./image/f30_3D.png) ![](./image/f30_2D.png)
 
 ## Levi N.13 Function
 
-<p float="left" align="center"><img src="./image/f31_3D.png" width=400><img src="./image/f31_2D.png" width=400></p>
+![](./image/f31_3D.png) ![](./image/f31_2D.png)
 
 ## Matyas Function
 
-<p float="left" align="center"><img src="./image/f32_3D.png" width=400><img src="./image/f32_2D.png" width=400></p>
+![](./image/f32_3D.png) ![](./image/f32_2D.png)
 
 ## McCormick Function
 
-<p float="left" align="center"><img src="./image/f33_3D.png" width=400><img src="./image/f33_2D.png" width=400></p>
+![](./image/f33_3D.png) ![](./image/f33_2D.png)
 
 ## Periodic Function
 
-<p float="left" align="center"><img src="./image/f34_3D.png" width=400><img src="./image/f34_2D.png" width=400></p>
+![](./image/f34_3D.png) ![](./image/f34_2D.png)
 
 ## Picheny Function
 
 
-<p float="left" align="center"><img src="./image/f35_3D.png" width=400><img src="./image/f35_2D.png" width=400></p>
+![](./image/f35_3D.png) ![](./image/f35_2D.png)
 
 ## Powell Sum Function
 
-<p float="left" align="center"><img src="./image/f36_3D.png" width=400><img src="./image/f36_2D.png" width=400></p>
+![](./image/f36_3D.png) ![](./image/f36_2D.png)
 
 ## Qing Function
 
-<p float="left" align="center"><img src="./image/f37_3D.png" width=400><img src="./image/f37_2D.png" width=400></p>
+![](./image/f37_3D.png) ![](./image/f37_2D.png)
 
 ## Quartic Function
 
-<p float="left" align="center"><img src="./image/f38_3D.png" width=400><img src="./image/f38_2D.png" width=400></p>
+![](./image/f38_3D.png) ![](./image/f38_2D.png)
 
 ## Rastrigin Function
 
-<p float="left" align="center"><img src="./image/f39_3D.png" width=400><img src="./image/f39_2D.png" width=400></p>
+![](./image/f39_3D.png) ![](./image/f39_2D.png)
 
 ## Ridge Function
 
-<p float="left" align="center"><img src="./image/f40_3D.png" width=400><img src="./image/f40_2D.png" width=400></p>
+![](./image/f40_3D.png) ![](./image/f40_2D.png)
 
 ## Rosenbrock Function
 
-<p float="left" align="center"><img src="./image/f41_3D.png" width=400><img src="./image/f41_2D.png" width=400></p>
+![](./image/f41_3D.png) ![](./image/f41_2D.png)
 
 ## Salomon Function
 
-<p float="left" align="center"><img src="./image/f42_3D.png" width=400><img src="./image/f42_2D.png" width=400></p>
+![](./image/f42_3D.png) ![](./image/f42_2D.png)
 
 ## Schaffer N.1 Function
 
-<p float="left" align="center"><img src="./image/f43_3D.png" width=400><img src="./image/f43_2D.png" width=400></p>
+![](./image/f43_3D.png) ![](./image/f43_2D.png)
 
 ## Schaffer N.2 Function
 
-<p float="left" align="center"><img src="./image/f44_3D.png" width=400><img src="./image/f44_2D.png" width=400></p>
+![](./image/f44_3D.png) ![](./image/f44_2D.png)
 
 ## Schaffer N.3 Function
 
-<p float="left" align="center"><img src="./image/f45_3D.png" width=400><img src="./image/f45_2D.png" width=400></p>
+![](./image/f45_3D.png) ![](./image/f45_2D.png)
 
 ## Schaffer N.4 Function
 
-<p float="left" align="center"><img src="./image/f46_3D.png" width=400><img src="./image/f46_2D.png" width=400></p>
+![](./image/f46_3D.png) ![](./image/f46_2D.png)
 
 ## Schwefel 2.20 Function
 
-<p float="left" align="center"><img src="./image/f47_3D.png" width=400><img src="./image/f47_2D.png" width=400></p>
+![](./image/f47_3D.png) ![](./image/f47_2D.png)
 
 ## Schwefel 2.21 Function
 
-<p float="left" align="center"><img src="./image/f48_3D.png" width=400><img src="./image/f48_2D.png" width=400></p>
+![](./image/f48_3D.png) ![](./image/f48_2D.png)
 
 ## Schwefel 2.22 Function
 
-<p float="left" align="center"><img src="./image/f49_3D.png" width=400><img src="./image/f49_2D.png" width=400></p>
+![](./image/f49_3D.png) ![](./image/f49_2D.png)
 
 ## Schwefel 2.23 Function
 
-<p float="left" align="center"><img src="./image/f50_3D.png" width=400><img src="./image/f50_2D.png" width=400></p>
+![](./image/f50_3D.png) ![](./image/f50_2D.png)
 
 ## Schwefel Function
 
-<p float="left" align="center"><img src="./image/f51_3D.png" width=400><img src="./image/f51_2D.png" width=400></p>
+![](./image/f51_3D.png) ![](./image/f51_2D.png)
 
 ## Sphere Function
 
-<p float="left" align="center"><img src="./image/f52_3D.png" width=400><img src="./image/f52_2D.png" width=400></p>
+![](./image/f52_3D.png) ![](./image/f52_2D.png)
 
 ## Styblinski-Tang Function
 
-<p float="left" align="center"><img src="./image/f53_3D.png" width=400><img src="./image/f53_2D.png" width=400></p>
+![](./image/f53_3D.png) ![](./image/f53_2D.png)
 
 ## Sum Squares Function
 
-<p float="left" align="center"><img src="./image/f54_3D.png" width=400><img src="./image/f54_2D.png" width=400></p>
+![](./image/f54_3D.png) ![](./image/f54_2D.png)
 
 ## Three-Hump Camel Function
 
-<p float="left" align="center"><img src="./image/f55_3D.png" width=400><img src="./image/f55_2D.png" width=400></p>
+![](./image/f55_3D.png) ![](./image/f55_2D.png)
 
 ## Wolfe Function
 
 **This function does not support 2D domain.**
 
-<!-- <p float="left" align="center"><img src="./image/f56_3D.png" width=400><img src="./image/f56_2D.png" width=400></p> -->
+<!-- ![](./image/f56_3D.png) ![](./image/f56_2D.png) -->
 
 ## Xin-She Yang N.1 Function
 
-<p float="left" align="center"><img src="./image/f57_3D.png" width=400><img src="./image/f57_2D.png" width=400></p>
+![](./image/f57_3D.png) ![](./image/f57_2D.png)
 
 ## Xin-She Yang N.2 Function
 
-<p float="left" align="center"><img src="./image/f58_3D.png" width=400><img src="./image/f58_2D.png" width=400></p>
+![](./image/f58_3D.png) ![](./image/f58_2D.png)
 
 ## Xin-She Yang N.3 Function
 
-<p float="left" align="center"><img src="./image/f59_3D.png" width=400><img src="./image/f59_2D.png" width=400></p>
+![](./image/f59_3D.png) ![](./image/f59_2D.png)
 
 ## Xin-She Yang N.4 Function
 
-<p float="left" align="center"><img src="./image/f60_3D.png" width=400><img src="./image/f60_2D.png" width=400></p>
+![](./image/f60_3D.png) ![](./image/f60_2D.png)
 
 ## Zakharov Function
 
-<p float="left" align="center"><img src="./image/f61_3D.png" width=400><img src="./image/f61_2D.png" width=400></p>
+![](./image/f61_3D.png) ![](./image/f61_2D.png)
