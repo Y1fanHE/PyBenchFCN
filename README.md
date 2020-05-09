@@ -26,10 +26,10 @@ You can simply install with command ```pip install PyBenchFCN```.
 The input of each numerical optimization problem could be a 1-D ndarray, or 2-D ndarray.
 - **1-D array**
   - an example of **a solution (individual)** for 10D problem is ```np.random.uniform(0, 1, 10)```, where each entry is a decision variable.
-  - <u>use ```f()``` to return a fitness value (scalar).</u>
+  - use ```f()``` to return a fitness value (scalar).
 - **2-D array**
   - an example of **group of solutions (population)** for 10D problem is ```np.random.uniform(0, 1, (5, 10))```, where each row (totally 5) is an individual.
-  - <u>use ```F()``` to return an array of fitness value (1-D array).</u>
+  - use ```F()``` to return an array of fitness value (1-D array).
 
 #### Setup Benchmark Function
 
