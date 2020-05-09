@@ -1,4 +1,11 @@
-# PyBenchFCN
+<h1>
+<p align="center"># PyBenchFCN #</p>
+<p align="center">A python implementation of optimization benchmarks</p>
+</h1>
+
+<p align="center">
+<img src="./image/f51_3D.png" width=300><img src="./image/f51_2D.png" width=300></p>
+<p align="center"><img src="./image/f58_2D.png" width=300><img src="./image/f58_3D.png" width=300></p>
 
 - [How to Install](#how-to-install)
 - [How to Use](#how-to-use)
@@ -26,10 +33,10 @@ You can simply install with command ```pip install PyBenchFCN```.
 The input of each numerical optimization problem could be a 1-D ndarray, or 2-D ndarray.
 - **1-D array**
   - an example of **a solution (individual)** for 10D problem is ```np.random.uniform(0, 1, 10)```, where each entry is a decision variable.
-  - use ```f()``` to return a fitness value (scalar).
+  - <u>use ```f()``` to return a fitness value (scalar).</u>
 - **2-D array**
   - an example of **group of solutions (population)** for 10D problem is ```np.random.uniform(0, 1, (5, 10))```, where each row (totally 5) is an individual.
-  - use ```F()``` to return an array of fitness value (1-D array).
+  - <u>use ```F()``` to return an array of fitness value (1-D array).</u>
 
 #### Setup Benchmark Function
 
@@ -92,15 +99,15 @@ Totally, [61 single-objective functions](./SingleObjectiveProblem.md) are implem
 
 ## Authors
 
-<a href="https://y1fanhe.github.io" target="_blank">Yifan He</a> @ Dept. of CS, UTsukuba
+[Yifan He](https://y1fanhe.github.io) @ Dept. of CS, UTsukuba
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
 ## Acknowledgement
 
-PyBenchFCN is maintained by <a href="https://y1fanhe.github.io" target="_blank">Yifan He</a>. The author of this repostory is very grateful to Mr. Mazhar Ansari Ardeh, who implemented the MatLab package BenchFCNs Toolbox.
+PyBenchFCN is maintained by [Yifan He](https://y1fanhe.github.io). The author of this repostory is very grateful to Mr. Mazhar Ansari Ardeh, who implemented the MatLab package BenchFCNs Toolbox.
 
 - If you find any mistakes, please report at a new issue.
 - If you want to help me implement more benchmarks (discrete optimization, multi-objective optimization), please contact at [he.yifan.xs@alumni.tsukuba.ac.jp](mailto:he.yifan.xs@alumni.tsukuba.ac.jp).
