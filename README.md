@@ -1,11 +1,4 @@
-<h1>
-<p align="center"># PyBenchFCN #</p>
-<p align="center">A python implementation of optimization benchmarks</p>
-</h1>
-
-<p align="center">
-<img src="https://github.com/Y1fanHE/PyBenchFCN/blob/master/image//f51_3D.png" width=300><img src="https://github.com/Y1fanHE/PyBenchFCN/blob/master/image//f51_2D.png" width=300></p>
-<p align="center"><img src="https://github.com/Y1fanHE/PyBenchFCN/blob/master/image//f58_2D.png" width=300><img src="https://github.com/Y1fanHE/PyBenchFCN/blob/master/image//f58_3D.png" width=300></p>
+# PyBenchFCN
 
 - [How to Install](#how-to-install)
 - [How to Use](#how-to-use)
